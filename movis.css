@@ -1,0 +1,87 @@
+body {
+    font-family: sans-serif;
+    background-color: #f7f7f7;
+  }
+  
+  header {
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  main {
+    margin-top: 20px;
+  }
+  
+  .new-releases {
+    margin-bottom: 20px;
+  }
+  
+  .new-releases h2 {
+    text-align: center;
+  }
+  
+  .new-releases ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .new-releases li {
+    width: 25%;
+    margin-bottom: 20px;
+  }
+  
+  .new-releases li a {
+    display: block;
+  }
+  
+  .new-releases li a img {
+    width: 100%;
+  }
+  
+  .new-releases li a h3 {
+    text-align: center;
+  }
+  
+  .new-releases li a p {
+    text-align: center;
+    margin-top: 5px;
+  }
+  
+  .search {
+    margin-bottom: 20px;
+  }
+  
+  .search h2 {
+    text-align: center;
+  }
+  
+  .search form {
+    width: 100%;
+  }
+  
+  .search form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .search form button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    border: none;
+  }  
